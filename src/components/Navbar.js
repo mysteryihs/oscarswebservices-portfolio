@@ -62,7 +62,7 @@ const Navbar = class extends React.Component {
             </ul>
           </nav>
         </div>
-        {/* <section id="hero" className="container">
+        <section id="hero" className="container">
 							<header>
 								<h2>Telephasic is a responsive
 								<br />
@@ -74,7 +74,7 @@ const Navbar = class extends React.Component {
 							<ul className="actions">
 								<li><a href="#" className="button">Get this party started</a></li>
 							</ul>
-						</section> */}
+						</section>
       </div>
     )
   }
