@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import MainLogo from './MainLogo'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -34,63 +33,49 @@ const Navbar = class extends React.Component {
 
   render() {
     return (
-      <nav
-        className="navbar is-transparent"
-        role="navigation"
-        aria-label="main-navigation"
-      >
-        <div className="container">
-          <div className="navbar-brand">
-            <Link to="/" className="navbar-item" title="Logo">
-              <img src={logo} alt="Kaldi" style={{ width: '88px' }} />
-            </Link>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
-          </div>
-          <div
-            id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
-          >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
-            <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
-            </div>
-          </div>
+      <div className="header-wrapper">
+        <div id="header" className="container">
+          <MainLogo />
+          <nav id="nav">
+            <ul>
+              <li>
+                <Link to="/dropdown">Dropdown</Link>
+                {/* <ul>
+                  <li><a href="#">Lorem ipsum dolor</a></li>
+                  <li><a href="#">Magna phasellus</a></li>
+                  <li><a href="#">Etiam dolore nisl</a></li>
+                  <li>
+                    <a href="#">Phasellus consequat</a>
+                    <ul>
+                      <li><a href="#">Lorem ipsum dolor</a></li>
+                      <li><a href="#">Phasellus consequat</a></li>
+                      <li><a href="#">Magna phasellus</a></li>
+                      <li><a href="#">Etiam dolore nisl</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Veroeros feugiat</a></li>
+                </ul> */}
+              </li>
+              <li><Link to="/left-sidebar">Left Sidebar</Link></li>
+              <li className="break"><Link to="/right-sidebar">Right Sidebar</Link></li>
+              <li><Link to="/no-sidebar">No sidebar</Link></li>
+            </ul>
+          </nav>
         </div>
-      </nav>
+        {/* <section id="hero" className="container">
+							<header>
+								<h2>Telephasic is a responsive
+								<br />
+								site template by <a href="http://html5up.net">HTML5 UP</a></h2>
+							</header>
+							<p>Designed and built by <a href="http://twitter.com/ajlkn">AJ</a> and released for free under
+							<br />
+							the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>.</p>
+							<ul className="actions">
+								<li><a href="#" className="button">Get this party started</a></li>
+							</ul>
+						</section> */}
+      </div>
     )
   }
 }

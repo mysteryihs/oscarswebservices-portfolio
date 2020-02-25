@@ -2092,7 +2092,7 @@ input, select, textarea {
 			background: #f6f8fb url("../../static/image-wrapper.svg");
 		}
 
-	#header-wrapper {
+	.header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
 		background-image: url("../../static/header.svg");
@@ -2106,7 +2106,7 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat, no-repeat;
 	}
 
-	.homepage #header-wrapper {
+	.homepage .header-wrapper {
 		padding: 10em 0 6em 0;
 		background-size: 128px 128px, 100% 100%, auto;
 	}
@@ -2419,11 +2419,11 @@ input, select, textarea {
 				padding: 5em 0 5em 0;
 			}
 
-			#header-wrapper {
+			.header-wrapper {
 				padding: 2em 0 2em 0;
 			}
 
-			.homepage #header-wrapper {
+			.homepage .header-wrapper {
 				padding: 8em 0 4em 0;
 			}
 
@@ -2464,11 +2464,11 @@ input, select, textarea {
 				padding: 4em 2em 4em 2em;
 			}
 
-			#header-wrapper {
+			.header-wrapper {
 				padding: 5em 0 1em 0;
 			}
 
-			.homepage #header-wrapper {
+			.homepage .header-wrapper {
 				padding: 5em 0 4em 0;
 			}
 
@@ -2699,12 +2699,12 @@ input, select, textarea {
 				padding: 3em 20px 3em 20px;
 			}
 
-			#header-wrapper {
+			.header-wrapper {
 				padding: 3em 20px 20px 20px;
 				text-align: center;
 			}
 
-			.homepage #header-wrapper {
+			.homepage .header-wrapper {
 				padding: 3em 20px 3em 20px;
 			}
 
@@ -2858,10 +2858,10 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				background-image: url("../../static/overlay.png"), url("../../static/navPanel.svg"), -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
-				background-image: url("../../static/overlay.png"), url("../../static/navPanel.svg"), -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
-				background-image: url("../../static/overlay.png"), url("../../static/navPanel.svg"), -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
-				background-image: url("../../static/overlay.png"), url("../../static/navPanel.svg"), linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
+				background-image: url("../../static/overlay.png"), url("../../static/navPanel.svg"), -moz-linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
+				background-image: url("../../static/overlay.png"), url("../../static/navPanel.svg"), -webkit-linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
+				background-image: url("../../static/overlay.png"), url("../../static/navPanel.svg"), -ms-linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
+				background-image: url("../../static/overlay.png"), url("../../static/navPanel.svg"), linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
 				display: block;
 				left: 0;
 				overflow-y: auto;
