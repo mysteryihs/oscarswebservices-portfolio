@@ -8,6 +8,12 @@ import { withPrefix } from 'gatsby'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
+  if (window.location.pathname == "/") {
+    var result = "homepage is-preload"
+  } else {
+    var result = "is-preload"
+  }
+
   return (
     <div>
       <Helmet>
@@ -49,7 +55,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <div className="homepage is-preload">
+      <div className={result}>
         <div className="page-wrapper">
           <Navbar />
           <div>{children}</div>

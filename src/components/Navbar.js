@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import MainLogo from './MainLogo'
+import { Router } from "@reach/router"
+import Hero from './Hero'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -30,6 +32,7 @@ const Navbar = class extends React.Component {
       }
     )
   }
+  
 
   render() {
     return (
@@ -62,19 +65,9 @@ const Navbar = class extends React.Component {
             </ul>
           </nav>
         </div>
-        <section id="hero" className="container">
-							<header>
-								<h2>Telephasic is a responsive
-								<br />
-								site template by <a href="http://html5up.net">HTML5 UP</a></h2>
-							</header>
-							<p>Designed and built by <a href="http://twitter.com/ajlkn">AJ</a> and released for free under
-							<br />
-							the <a href="http://html5up.net/license">Creative Commons Attribution 3.0 license</a>.</p>
-							<ul className="actions">
-								<li><a href="#" className="button">Get this party started</a></li>
-							</ul>
-						</section>
+        <Router>
+          <Hero path="/" />
+        </Router>
       </div>
     )
   }

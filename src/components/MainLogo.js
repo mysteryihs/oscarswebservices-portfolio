@@ -6,7 +6,7 @@ const MainLogo = class extends React.Component {
         return(
             <h1 id="logo">
                 <Link to="/" title="Logo">
-                    Telephasicsss
+                    Telephasic
                 </Link>
             </h1>
         )
