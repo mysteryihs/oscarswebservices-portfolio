@@ -6,10 +6,15 @@ import "../styles/main.css"
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
+
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
-  if (window.location.pathname == "/") {
-    var result = "homepage is-preload"
+  if (typeof window !== 'undefined') {
+    if (window.location.pathname == "/") {
+      var result = "homepage is-preload"
+    } else {
+      var result = "is-preload"
+    }
   } else {
     var result = "is-preload"
   }
