@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Hero from '../components/Hero'
-// import Feature1 from '../components/Feature1'
+import Feature1 from '../components/Feature1'
 
 export const IndexPageTemplate = ({
   image,
@@ -22,7 +22,7 @@ export const IndexPageTemplate = ({
     <Hero />
     </div>
     <div>
-      {/* <Feature1 /> */}
+      <Feature1 />
       <section className="section section--gradient">
         <div className="container">
           <div className="section">
