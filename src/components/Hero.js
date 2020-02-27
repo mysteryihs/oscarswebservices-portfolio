@@ -1,21 +1,20 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 const Hero = class extends React.Component {
     render() {
         return(
             <section id="hero" className="container">
             <header>
-              <h2>Telephasic is a responsive
+              <h2>Oscar's Web Services is
               <br />
-              site template by <Link to="/">HTML5 UP</Link></h2>
+              a premier web design business</h2>
             </header>
-            <p>Designed and built by <Link to="/">AJ</Link> and released for free under
+            <p>Specializing in Ecommerce and Business Websites 
             <br />
-            the <Link to="/">Creative Commons Attribution 3.0 license.</Link></p>
-            <ul className="actions">
+            Located in and servicing Southern California</p>
+            {/* <ul className="actions">
               <li><Link to="/" className="button">Get this party started</Link></li>
-            </ul>
+            </ul> */}
           </section>
         )
     }

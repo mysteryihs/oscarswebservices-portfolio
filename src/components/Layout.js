@@ -3,7 +3,8 @@ import { Helmet } from 'react-helmet'
 import "../styles/main.css"
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
-import Body from './Body'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -49,7 +50,13 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <Body children={children}/>
+      <div className="is-preload">
+        <div className="page-wrapper">
+          <Navbar />
+          <div>{children}</div>
+          <Footer />
+        </div>
+      </div>
     </div>
   )
 }
