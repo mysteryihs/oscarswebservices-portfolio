@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import MainLogo from './MainLogo'
-import { Router } from "@reach/router"
-import Hero from './Hero'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -43,8 +41,8 @@ const Navbar = class extends React.Component {
             <ul>
               <li>
                 <Link to="/dropdown">Dropdown</Link>
-                {/* <ul>
-                  <li><a href="#">Lorem ipsum dolor</a></li>
+                <ul>
+                  {/* <li><a href="#">Lorem ipsum dolor</a></li>
                   <li><a href="#">Magna phasellus</a></li>
                   <li><a href="#">Etiam dolore nisl</a></li>
                   <li>
@@ -56,8 +54,8 @@ const Navbar = class extends React.Component {
                       <li><a href="#">Etiam dolore nisl</a></li>
                     </ul>
                   </li>
-                  <li><a href="#">Veroeros feugiat</a></li>
-                </ul> */}
+                  <li><a href="#">Veroeros feugiat</a></li> */}
+                </ul>
               </li>
               <li><Link to="/left-sidebar">Left Sidebar</Link></li>
               <li className="break"><Link to="/right-sidebar">Right Sidebar</Link></li>
@@ -65,9 +63,6 @@ const Navbar = class extends React.Component {
             </ul>
           </nav>
         </div>
-        <Router>
-          <Hero path="/" />
-        </Router>
       </div>
     )
   }

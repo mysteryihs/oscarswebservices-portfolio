@@ -2095,20 +2095,21 @@ input, select, textarea {
 	.header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
-		background-image: url("../../static/header.svg");
+		/* background-image: url("../../static/header.svg");
 		background-image: url("../../static/overlay.png"), url("../../static/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image: url("../../static/overlay.png"), url("../../static/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image: url("../../static/overlay.png"), url("../../static/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("../../static/overlay.png"), url("../../static/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("../../static/overlay.png"), url("../../static/header.svg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%); */
+		background-image: url("https://i.redd.it/batjiqwqv2j41.jpg");
 		background-color: #f08c89;
-		background-size: 100% 620%;
-		background-size: 128px 128px, 100% 620%, auto;
+		background-size: 100% 3000%, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
 	}
 
 	.homepage .header-wrapper {
 		padding: 10em 0 6em 0;
-		background-size: 128px 128px, 100% 100%, auto;
+		background-size: 100% 100%, 100% 100%, auto;
+		background-image: url("https://i.redd.it/batjiqwqv2j41.jpg");
 	}
 
 	#promo-wrapper {
@@ -2700,7 +2701,7 @@ input, select, textarea {
 			}
 
 			.header-wrapper {
-				padding: 3em 20px 20px 20px;
+				padding: 3em 20px 8em 20px;
 				text-align: center;
 			}
 
@@ -2731,8 +2732,8 @@ input, select, textarea {
 
 		/* Nav */
 
-			#nav {
-				display: none;
+			#nav ul li {
+				display: block;
 			}
 
 		/* Footer */

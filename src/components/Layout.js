@@ -1,23 +1,12 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
 import "../styles/main.css"
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
-
+import Body from './Body'
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
-  if (typeof window !== 'undefined') {
-    if (window.location.pathname == "/") {
-      var result = "homepage is-preload"
-    } else {
-      var result = "is-preload"
-    }
-  } else {
-    var result = "is-preload"
-  }
 
   return (
     <div>
@@ -60,13 +49,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <div className={result}>
-        <div className="page-wrapper">
-          <Navbar />
-          <div>{children}</div>
-          <Footer />
-        </div>
-      </div>
+      <Body children={children}/>
     </div>
   )
 }
