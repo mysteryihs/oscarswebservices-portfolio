@@ -5,8 +5,7 @@ import "../styles/main.css"
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
-import Hero from '../components/Hero'
-import Feature1 from '../components/Feature1'
+import Img from 'gatsby-image'
 
 export const IndexPageTemplate = ({
   image,
@@ -16,19 +15,71 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
+  hero,
+  affordableled,
+  qualityinspections,
 }) => (
   <div className="homepage">
     <div className="header-wrapper">
-    <Hero />
+      <section id="hero" className="container">
+        <header>
+          <h2>{hero.title1}
+          <br />
+          {hero.title2}</h2>
+        </header>
+        <p>{hero.subtitle1}
+        <br />
+        {hero.subtitle2}</p>
+        {/* <ul className="actions">
+          <li><Link to="/" className="button">Get this party started</Link></li>
+        </ul> */}
+      </section>
     </div>
     <div>
-      <Feature1 />
+
+
+    <div class="wrapper">
+      <div class="container">
+          <div class="row">
+              <section class="col-6 col-12-narrower feature">
+                  <div class="image-wrapper first">
+                      <a href="#" class="image featured first"><Img fluid={affordableled.childImageSharp.fluid} alt="test" style={{maxHeight: "255px"}}/></a>
+                  </div>
+                  <header>
+                      <h2>Semper magna neque vel<br />
+                      adipiscing curabitur</h2>
+                  </header>
+                  <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel
+                  sem sit dolor neque semper magna. Lorem ipsum dolor sit amet consectetur et sed
+                  adipiscing elit. Curabitur vel sem sit.</p>
+                  <ul class="actions">
+                      <li><a href="#" class="button">Elevate my awareness</a></li>
+                  </ul>
+              </section>
+              <section class="col-6 col-12-narrower feature">
+                  <div class="image-wrapper">
+                      <a href="#" class="image featured"><Img fluid={qualityinspections.childImageSharp.fluid} alt="test" style={{maxHeight: "255px"}} /></a>
+                  </div>
+                  <header>
+                      <h2>Amet lorem ipsum dolor<br />
+                      sit consequat magna</h2>
+                  </header>
+                  <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel
+                  sem sit dolor neque semper magna. Lorem ipsum dolor sit amet consectetur et sed
+                  adipiscing elit. Curabitur vel sem sit.</p>
+                  <ul class="actions">
+                      <li><a href="#" class="button">Elevate my awareness</a></li>
+                  </ul>
+              </section>
+          </div>
+      </div>
+    </div>
 
 
 				<div id="promo-wrapper">
 					<section id="promo">
 						<h2>Neque semper magna et lorem ipsum adipiscing</h2>
-						<a href="#" class="button">Breach the thresholds</a>
+						<Link to="/" className="button">Breach the thresholds</Link>
 					</section>
 				</div>
 
@@ -42,21 +93,21 @@ export const IndexPageTemplate = ({
 						<div class="row features">
 							<section class="col-4 col-12-narrower feature">
 								<div class="image-wrapper first">
-									<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="../../img/pic03.jpg" alt="" /></a>
 								</div>
 								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
 								vel sem sit dolor neque semper magna lorem ipsum.</p>
 							</section>
 							<section class="col-4 col-12-narrower feature">
 								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="../../img/pic04.jpg" alt="" /></a>
 								</div>
 								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
 								vel sem sit dolor neque semper magna lorem ipsum.</p>
 							</section>
 							<section class="col-4 col-12-narrower feature">
 								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="../../img/pic05.jpg" alt="" /></a>
 								</div>
 								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
 								vel sem sit dolor neque semper magna lorem ipsum.</p>
@@ -68,7 +119,7 @@ export const IndexPageTemplate = ({
 					</section>
 				</div>
 
-      <section className="section section--gradient">
+      {/* <section className="section section--gradient">
         <div className="container">
           <div className="section">
             <div className="columns">
@@ -114,7 +165,12 @@ export const IndexPageTemplate = ({
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+
+      <div>
+        <BlogRoll />
+      </div>
+
     </div>
   </div>
 )
@@ -125,6 +181,7 @@ IndexPageTemplate.propTypes = {
   heading: PropTypes.string,
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
+  hero: PropTypes.object,
   description: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
@@ -133,7 +190,6 @@ IndexPageTemplate.propTypes = {
 
 const IndexPage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
-
   return (
     <Layout>
       <IndexPageTemplate
@@ -141,9 +197,12 @@ const IndexPage = ({ data }) => {
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
+        hero={frontmatter.hero}
         mainpitch={frontmatter.mainpitch}
         description={frontmatter.description}
         intro={frontmatter.intro}
+        affordableled={data.affordableled}
+        qualityinspections={data.qualityinspections}
       />
     </Layout>
   )
@@ -161,6 +220,29 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query IndexPageTemplate {
+    affordableled: file(relativePath: {eq: "afford_trim.png"}) {
+      id
+      childImageSharp {
+        fixed {
+          ...GatsbyImageSharpFixed
+        }
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    qualityinspections: file(relativePath: {eq: "quality_trim.png"}) {
+      id
+      childImageSharp {
+        fixed {
+          ...GatsbyImageSharpFixed
+        }
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
@@ -173,6 +255,13 @@ export const pageQuery = graphql`
         }
         heading
         subheading
+        hero {
+          title1
+          title2
+          subtitle1
+          subtitle2
+        }
+        title
         mainpitch {
           title
           description

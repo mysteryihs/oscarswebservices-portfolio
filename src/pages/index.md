@@ -1,9 +1,14 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
+title: Oscar's Web Services - Homepage
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
+hero:
+  title1: Oscar's Web Services is 
+  title2: a premier web design business
+  subtitle1: Specializing in Ecommerce and Business Websites 
+  subtitle2: Located in and servicing Southern California
 mainpitch:
   title: Why Kaldi
   description: >

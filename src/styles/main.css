@@ -2447,9 +2447,9 @@ input, select, textarea {
 
 		/* Sections/Article */
 
-			header br {
+			/* header br {
 				display: none;
-			}
+			} */
 
 		/* Button */
 
@@ -2514,10 +2514,10 @@ input, select, textarea {
 				#hero h2 {
 					font-size: 2.75em;
 				}
-
+/* 
 				#hero p br {
 					display: none;
-				}
+				} */
 
 		/* Promo */
 
