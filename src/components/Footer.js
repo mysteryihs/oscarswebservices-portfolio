@@ -6,6 +6,7 @@ import React from 'react'
 // import instagram from '../img/social/instagram.svg'
 // import twitter from '../img/social/twitter.svg'
 // import vimeo from '../img/social/vimeo.svg'
+import ContactForm from './ContactForm'
 
 const Footer = class extends React.Component {
   render() {
@@ -19,7 +20,7 @@ const Footer = class extends React.Component {
 						</header>
 						<div class="row">
 							<section class="col-6 col-12-narrower">
-								<form method="post" action="#">
+								{/* <form method="post" data-netlify="true">
 									<div class="row gtr-50">
 										<div class="col-6 col-12-mobile">
 											<input name="name" placeholder="Name" type="text" />
@@ -37,7 +38,8 @@ const Footer = class extends React.Component {
 											</ul>
 										</div>
 									</div>
-								</form>
+								</form> */}
+								<ContactForm />
 							</section>
 							<section class="col-6 col-12-narrower">
 								<div class="row gtr-0">

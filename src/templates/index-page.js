@@ -84,7 +84,7 @@ export const IndexPageTemplate = ({
 				</div>
 
 
-				<div class="wrapper">
+				{/* <div class="wrapper">
 					<section class="container">
 						<header class="major">
 							<h2>Sed magna consequat lorem curabitur tempus</h2>
@@ -117,7 +117,7 @@ export const IndexPageTemplate = ({
 							<li><a href="#" class="button">Elevate my awareness</a></li>
 						</ul>
 					</section>
-				</div>
+				</div> */}
 
       {/* <section className="section section--gradient">
         <div className="container">
