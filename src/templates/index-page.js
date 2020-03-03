@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import "../styles/main.css"
 import Layout from '../components/Layout'
-import Features from '../components/Features'
+// import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import Img from 'gatsby-image'
 
@@ -43,32 +43,26 @@ export const IndexPageTemplate = ({
           <div class="row">
               <section class="col-6 col-12-narrower feature">
                   <div class="image-wrapper first">
-                      <a href="#" class="image featured first"><Img fluid={affordableled.childImageSharp.fluid} alt="test" style={{maxHeight: "255px"}}/></a>
+                      <a href="https://www.affordableled.com/" class="image featured first"><Img fluid={affordableled.childImageSharp.fluid} alt="test" style={{maxHeight: "255px"}}/></a>
                   </div>
                   <header>
-                      <h2>Semper magna neque vel<br />
-                      adipiscing curabitur</h2>
+                      <h2>AffordableLED</h2>
                   </header>
-                  <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel
-                  sem sit dolor neque semper magna. Lorem ipsum dolor sit amet consectetur et sed
-                  adipiscing elit. Curabitur vel sem sit.</p>
+                  <p>AffordableLED was an Ecommerce business running on an almost 10 year old Magento website. With our help, AffordableLED upgraded to a Magento 2 website which included a new look and better security.</p>
                   <ul class="actions">
-                      <li><a href="#" class="button">Elevate my awareness</a></li>
+                      <li><a href="https://www.affordableled.com/" class="button">See it here</a></li>
                   </ul>
               </section>
               <section class="col-6 col-12-narrower feature">
                   <div class="image-wrapper">
-                      <a href="#" class="image featured"><Img fluid={qualityinspections.childImageSharp.fluid} alt="test" style={{maxHeight: "255px"}} /></a>
+                      <a href="https://thequalityhomeinspector.net/" class="image featured"><Img fluid={qualityinspections.childImageSharp.fluid} alt="test" style={{maxHeight: "255px"}} /></a>
                   </div>
                   <header>
-                      <h2>Amet lorem ipsum dolor<br />
-                      sit consequat magna</h2>
+                      <h2>Quality Home Inspections</h2>
                   </header>
-                  <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur vel
-                  sem sit dolor neque semper magna. Lorem ipsum dolor sit amet consectetur et sed
-                  adipiscing elit. Curabitur vel sem sit.</p>
+                  <p>Quality Home Inspections had dwindling customers within the past year and no online presence. With our help making a great website and a few online postings, their business went back to being to being profitable.</p>
                   <ul class="actions">
-                      <li><a href="#" class="button">Elevate my awareness</a></li>
+                      <li><a href="https://thequalityhomeinspector.net/" class="button">See it here</a></li>
                   </ul>
               </section>
           </div>
@@ -78,8 +72,8 @@ export const IndexPageTemplate = ({
 
 				<div id="promo-wrapper">
 					<section id="promo">
-						<h2>Neque semper magna et lorem ipsum adipiscing</h2>
-						<Link to="/" className="button">Breach the thresholds</Link>
+						<h2>Interested in knowing more?</h2>
+						<Link to="/" className="button">About Us</Link>
 					</section>
 				</div>
 

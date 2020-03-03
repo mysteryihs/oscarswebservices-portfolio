@@ -37,7 +37,7 @@ class BlogRoll extends React.Component {
                       {post.frontmatter.title}
                     </Link>
                     <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
+                    <span className="subtitle is-size-5 is-block date">
                       {post.frontmatter.date}
                     </span>
                   </p>

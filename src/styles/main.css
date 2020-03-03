@@ -229,8 +229,16 @@ input, select, textarea {
 		header.major {
 			text-align: center;
 		}
+
 	.section {
-		padding: 3rem 1.5rem;
+		padding: 3rem 8rem;
+	}
+
+
+	
+	.section img {
+		height: auto;
+    	max-width: 100%;
 	}
 
 	.content .taglist {
@@ -1789,6 +1797,14 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
+	.blogroll-container .blog-item article header p {
+		color: #52575c;
+	}
+
+	.blogroll-container .blog-item article header .date {
+		color: #52575c;
+	}
+
 	.blogroll-container .is-featured {
 		background-color: hsl(265, 80%, 90%)
 	}
@@ -2336,6 +2352,7 @@ input, select, textarea {
 		#hero h2 {
 			color: #fff;
 			font-size: 3em;
+			font-weight: 600;
 		}
 
 		#hero strong {
@@ -2349,6 +2366,7 @@ input, select, textarea {
 		#hero p {
 			font-size: 1.5em;
 			line-height: 1.5em;
+			font-weight: 400;
 		}
 
 		#hero .button {

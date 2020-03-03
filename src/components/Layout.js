@@ -1,6 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import "../styles/main.css"
+import "../styles/bulma-min.css"
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 import Footer from '../components/Footer'
