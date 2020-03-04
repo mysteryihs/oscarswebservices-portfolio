@@ -40,7 +40,7 @@ const Navbar = class extends React.Component {
           <nav id="nav">
             <ul>
               <li>
-                <Link to="/dropdown">Portfolio</Link>
+                <Link to="/portfolio">Portfolio</Link>
                 <ul>
                   {/* <li><a href="#">Lorem ipsum dolor</a></li>
                   <li><a href="#">Magna phasellus</a></li>
@@ -57,9 +57,9 @@ const Navbar = class extends React.Component {
                   <li><a href="#">Veroeros feugiat</a></li> */}
                 </ul>
               </li>
-              <li><Link to="/left-sidebar">Services</Link></li>
-              <li className="break"><Link to="/right-sidebar">About Us</Link></li>
-              <li><Link to="/no-sidebar">FAQ</Link></li>
+              <li><Link to="/services">Services</Link></li>
+              <li className="break"><Link to="/about">About</Link></li>
+              <li><Link to="/faq">FAQ</Link></li>
             </ul>
           </nav>
         </div>
