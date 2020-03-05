@@ -15,8 +15,9 @@ While it can be easy to draw out the look of a website, it takes technical skill
 ### Ecommerce
 We also specialize in developing with Ecommerce websites, including adding custom functionality, optimizing and designing Ecommerce sites for maximum conversion.
 
-### Basic SEO
+### Basic SEO and ADA Compliance
+All our websites are built using the best SEO practices and with ADA compliance in mind, including practices like image alt text and website speed.
 
 ### Support
-Is your site throwing errors? Or perhaps it's running too slow. We can also troubleshoot your websites and perform diagnostics. We also follow up with all of our customers a month after delivering their website to make sure they are satisfied and apply any changes as needed.
+Is your site throwing errors and giving you a headache? Or perhaps it's running too slow. We can also troubleshoot your websites and perform diagnostics. We also follow up with all of our customers a month after delivering their website to make sure they are satisfied and apply any changes as needed.
 

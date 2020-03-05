@@ -3,17 +3,18 @@ templateKey: 'faq-page'
 path: /faq
 title: FAQ
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Do you work with Squarespace, Wix and etc?
+What allows an average person to build a website using a website builder restricts what we're able to do. So what you're able to do is pretty much what we're able to do. If you find that sites like Squarespace or Wix are not fulfilling your needs then contact us now and we can help.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+### Why should I bother with a website?
+A common complaint from business owners is that they pay for a website and it does nothing to help their business.  A website is like a billboard, it requires traffic in order to become effective. Because of that, websites are at their best when accompanied with social media and online business listings. If you believe that your business wont benefit from such an online presence, then you may not need a website afterall.
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Do you do SEO, digital marketing or advertising?
+Outside of website SEO, we do not do SEO, digital marketing or advertising. We specialize in designing and developing websites, but we will gladly share any knowledge we have and will try to point you in the right direction.
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+### So what *can* you do?
+[See our services here.](/services)
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+
+### Why should I choose you over somebody else?
+Many web agencies choose to build their websites through builders like Squarespace and Wix or outsource their work often overseas. If you are satisfied with their results and price point then there is no reason to choose us over them. However, if you find that what you got is disappointing or their services are lacking then feel free to contact us. All our development work is done in-house and our customer service is second to none.
