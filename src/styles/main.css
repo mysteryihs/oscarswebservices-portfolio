@@ -234,7 +234,9 @@ input, select, textarea {
 		padding: 3rem 8rem;
 	}
 
-
+	.section .title {
+		margin-bottom: 1em;
+	}
 	
 	.section img {
 		height: auto;
