@@ -243,6 +243,10 @@ input, select, textarea {
     	max-width: 100%;
 	}
 
+	.section h3 {
+		font-weight: 400;
+	}
+
 	.content .taglist {
 		list-style: none;
 		margin-bottom: 0;
@@ -2727,6 +2731,12 @@ input, select, textarea {
 			}
 			.blogroll-container .blog-item {
 				width: 100%;
+			}
+
+		/* Content */
+
+			.section {
+				padding: 1rem 1rem;
 			}
 
 	}

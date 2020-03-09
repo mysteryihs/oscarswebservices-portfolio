@@ -43,26 +43,26 @@ export const IndexPageTemplate = ({
           <div class="row">
               <section class="col-6 col-12-narrower feature">
                   <div class="image-wrapper first">
-                      <a href="https://www.affordableled.com/" class="image featured first"><Img fluid={affordableled.childImageSharp.fluid} alt="test" style={{maxHeight: "255px"}}/></a>
+                      <a href="https://www.affordableled.com/" class="image featured first"><Img fluid={affordableled.childImageSharp.fluid} alt="AffordableLED" style={{maxHeight: "255px"}} title="AffordableLED" /></a>
                   </div>
                   <header>
                       <h2>AffordableLED</h2>
                   </header>
                   <p>AffordableLED was an Ecommerce business running on an almost 10 year old Magento website. With our help, AffordableLED upgraded to a Magento 2 website which included a new look and better security.</p>
                   <ul class="actions">
-                      <li><a href="https://www.affordableled.com/" class="button">See it here</a></li>
+                      <li><a href="https://www.affordableled.com/" class="button">To the site</a></li>
                   </ul>
               </section>
               <section class="col-6 col-12-narrower feature">
                   <div class="image-wrapper">
-                      <a href="https://thequalityhomeinspector.net/" class="image featured"><Img fluid={qualityinspections.childImageSharp.fluid} alt="test" style={{maxHeight: "255px"}} /></a>
+                      <a href="https://thequalityhomeinspector.net/" class="image featured"><Img fluid={qualityinspections.childImageSharp.fluid} alt="Quality Home Inspections" style={{maxHeight: "255px"}} title="Quality Home Inspections" /></a>
                   </div>
                   <header>
                       <h2>Quality Home Inspections</h2>
                   </header>
                   <p>Quality Home Inspections had dwindling customers within the past year and no online presence. With our help making a great website and a few online postings, their business went back to being to being profitable.</p>
                   <ul class="actions">
-                      <li><a href="https://thequalityhomeinspector.net/" class="button">See it here</a></li>
+                      <li><a href="https://thequalityhomeinspector.net/" class="button">To the site</a></li>
                   </ul>
               </section>
           </div>
@@ -73,7 +73,7 @@ export const IndexPageTemplate = ({
 				<div id="promo-wrapper">
 					<section id="promo">
 						<h2>Interested in knowing more?</h2>
-						<Link to="/" className="button">About Us</Link>
+						<Link to="/services" className="button">Our services</Link>
 					</section>
 				</div>
 
