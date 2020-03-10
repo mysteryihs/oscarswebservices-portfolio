@@ -1809,6 +1809,7 @@ input, select, textarea {
 
 	.blogroll-container .blog-item article header .date {
 		color: #52575c;
+		font-weight: 400;
 	}
 
 	.blogroll-container .is-featured {

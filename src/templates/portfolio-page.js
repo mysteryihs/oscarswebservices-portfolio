@@ -2,45 +2,40 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Content, { HTMLContent } from '../components/Content'
+// import Content, { HTMLContent } from '../components/Content'
+import { HTMLContent } from '../components/Content'
 import Img from 'gatsby-image'
 
 export const PortfolioPageTemplate = ({ title, content, contentComponent, dragonrush, qualityinspections, guanshu }) => {
-  const PageContent = contentComponent || Content
+  // const PageContent = contentComponent || Content
 
   return (
     <div class="wrapper">
     <section class="container">
       <header class="major">
-        <h2>Sed magna consequat lorem curabitur tempus</h2>
-        <p>Elit aliquam vulputate egestas euismod nunc semper vehicula lorem blandit</p>
+        <h2>A few of our other projects</h2>
+        <p>Some may have ceased to exist and others may have been redesigned <br /> but all have served their purpose.</p>
       </header>
       <div class="row features">
         <section class="col-4 col-12-narrower feature">
           <div class="image-wrapper first">
-            <a href="#" class="image featured"><img src="../../img/pic03.jpg" alt="" /></a>
+            <Img fluid={dragonrush.childImageSharp.fluid} alt="Dragon Rush Site" title="Dragon Rush" style={{height: "200px"}} className="image featured" />
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-          vel sem sit dolor neque semper magna lorem ipsum.</p>
+          <p>Built using Ruby on Rails with Heroku hosting and includes OAuth and Email integration.</p>
         </section>
         <section class="col-4 col-12-narrower feature">
           <div class="image-wrapper">
-            <a href="#" class="image featured"><img src="../../img/pic04.jpg" alt="" /></a>
+            <a href="https://guanshubiotechltd.com/" class="image featured"><Img fluid={guanshu.childImageSharp.fluid} alt="Guan Shu Site" title="Guan Shu" style={{height: "200px"}} /></a>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-          vel sem sit dolor neque semper magna lorem ipsum.</p>
+          <p>Ecommerce website built using Ruby on Rails with the Spree extension allowing for customized website including payment gateways.</p>
         </section>
         <section class="col-4 col-12-narrower feature">
           <div class="image-wrapper">
-            <a href="#" class="image featured"><img src="../../img/pic05.jpg" alt="" /></a>
+            <a href="https://thequalityhomeinspector.net/" class="image featured"><Img fluid={qualityinspections.childImageSharp.fluid} alt="Quality Inspections Site" title="Quality Property Inspections" style={{height: "200px"}} /></a>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
-          vel sem sit dolor neque semper magna lorem ipsum.</p>
+          <p>Custom hand-coded website using Jekyll static site generator with Github Pages for hosting.</p>
         </section>
       </div>
-      <ul class="actions major">
-        <li><a href="#" class="button">Elevate my awareness</a></li>
-      </ul>
     </section>
   </div>
   )
