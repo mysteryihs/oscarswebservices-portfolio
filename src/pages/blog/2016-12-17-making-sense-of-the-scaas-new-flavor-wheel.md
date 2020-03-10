@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: This is a test title for one of the blog posts
+title: This is an updated test title for one of the blog posts from dev
 date: 2016-12-17T15:04:10.000Z
 description: >-
   The Coffee Taster’s Flavor Wheel, the official resource used by coffee
