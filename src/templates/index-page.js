@@ -38,31 +38,31 @@ export const IndexPageTemplate = ({
     <div>
 
 
-    <div class="wrapper">
-      <div class="container">
-          <div class="row">
-              <section class="col-6 col-12-narrower feature">
-                  <div class="image-wrapper first">
-                      <a href="https://www.affordableled.com/" class="image featured first"><Img fluid={affordableled.childImageSharp.fluid} alt="AffordableLED" style={{maxHeight: "255px"}} title="AffordableLED" /></a>
+    <div className="wrapper">
+      <div className="container">
+          <div className="row">
+              <section className="col-6 col-12-narrower feature">
+                  <div className="image-wrapper first">
+                      <a href="https://www.affordableled.com/" className="image featured first"><Img fluid={affordableled.childImageSharp.fluid} alt="AffordableLED" style={{maxHeight: "255px"}} title="AffordableLED" /></a>
                   </div>
                   <header>
                       <h2>AffordableLED</h2>
                   </header>
                   <p>AffordableLED was an Ecommerce business running on an almost 10 year old Magento website. With our help, AffordableLED upgraded to a Magento 2 website which included a new look and better security.</p>
-                  <ul class="actions">
-                      <li><a href="https://www.affordableled.com/" class="button">To the site</a></li>
+                  <ul className="actions">
+                      <li><a href="https://www.affordableled.com/" className="button">To the site</a></li>
                   </ul>
               </section>
-              <section class="col-6 col-12-narrower feature">
-                  <div class="image-wrapper">
-                      <a href="https://thequalityhomeinspector.net/" class="image featured"><Img fluid={qualityinspections.childImageSharp.fluid} alt="Quality Home Inspections" style={{maxHeight: "255px"}} title="Quality Home Inspections" /></a>
+              <section className="col-6 col-12-narrower feature">
+                  <div className="image-wrapper">
+                      <a href="https://thequalityhomeinspector.net/" className="image featured"><Img fluid={qualityinspections.childImageSharp.fluid} alt="Quality Home Inspections" style={{maxHeight: "255px"}} title="Quality Home Inspections" /></a>
                   </div>
                   <header>
                       <h2>Quality Home Inspections</h2>
                   </header>
                   <p>Quality Home Inspections had dwindling customers within the past year and no online presence. With our help making a great website and a few online postings, their business went back to being to being profitable.</p>
-                  <ul class="actions">
-                      <li><a href="https://thequalityhomeinspector.net/" class="button">To the site</a></li>
+                  <ul className="actions">
+                      <li><a href="https://thequalityhomeinspector.net/" className="button">To the site</a></li>
                   </ul>
               </section>
           </div>
@@ -78,37 +78,37 @@ export const IndexPageTemplate = ({
 				</div>
 
 
-				{/* <div class="wrapper">
-					<section class="container">
-						<header class="major">
+				{/* <div className="wrapper">
+					<section className="container">
+						<header className="major">
 							<h2>Sed magna consequat lorem curabitur tempus</h2>
 							<p>Elit aliquam vulputate egestas euismod nunc semper vehicula lorem blandit</p>
 						</header>
-						<div class="row features">
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper first">
-									<a href="#" class="image featured"><img src="../../img/pic03.jpg" alt="" /></a>
+						<div className="row features">
+							<section className="col-4 col-12-narrower feature">
+								<div className="image-wrapper first">
+									<a href="#" className="image featured"><img src="../../img/pic03.jpg" alt="" /></a>
 								</div>
 								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
 								vel sem sit dolor neque semper magna lorem ipsum.</p>
 							</section>
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="../../img/pic04.jpg" alt="" /></a>
+							<section className="col-4 col-12-narrower feature">
+								<div className="image-wrapper">
+									<a href="#" className="image featured"><img src="../../img/pic04.jpg" alt="" /></a>
 								</div>
 								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
 								vel sem sit dolor neque semper magna lorem ipsum.</p>
 							</section>
-							<section class="col-4 col-12-narrower feature">
-								<div class="image-wrapper">
-									<a href="#" class="image featured"><img src="../../img/pic05.jpg" alt="" /></a>
+							<section className="col-4 col-12-narrower feature">
+								<div className="image-wrapper">
+									<a href="#" className="image featured"><img src="../../img/pic05.jpg" alt="" /></a>
 								</div>
 								<p>Lorem ipsum dolor sit amet consectetur et sed adipiscing elit. Curabitur
 								vel sem sit dolor neque semper magna lorem ipsum.</p>
 							</section>
 						</div>
-						<ul class="actions major">
-							<li><a href="#" class="button">Elevate my awareness</a></li>
+						<ul className="actions major">
+							<li><a href="#" className="button">Elevate my awareness</a></li>
 						</ul>
 					</section>
 				</div> */}

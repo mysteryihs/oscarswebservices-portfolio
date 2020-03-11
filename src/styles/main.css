@@ -2172,7 +2172,7 @@ input, select, textarea {
 		background-image: url("../../static/overlay.png"), url("../../static/header.svg"), -webkit-linear-gradient(75deg, #4A235A 15%, #154360 55%);
 		background-image: url("../../static/overlay.png"), url("../../static/header.svg"), -ms-linear-gradient(75deg, #4A235A 15%, #154360 55%);
 		background-image: url("../../static/overlay.png"), url("../../static/header.svg"), linear-gradient(75deg, #4A235A 15%, #154360 55%);
-		/* background-image: url("https://i.redd.it/batjiqwqv2j41.jpg"); */
+		/* background-image: url("../../static/img/background.jpg"); */
 		background-color: #f08c89;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
@@ -2181,10 +2181,10 @@ input, select, textarea {
 	.homepage .header-wrapper {
 		padding: 20em 0 16em 0;
 		background-size: 100% 100%, 100% 100%, auto;
-		background-image: url("https://i.redd.it/batjiqwqv2j41.jpg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("https://i.redd.it/batjiqwqv2j41.jpg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("https://i.redd.it/batjiqwqv2j41.jpg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("https://i.redd.it/batjiqwqv2j41.jpg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("../../static/img/background.jpg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("../../static/img/background.jpg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("../../static/img/background.jpg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		background-image: url("../../static/img/background.jpg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 	}
 
 	#promo-wrapper {
