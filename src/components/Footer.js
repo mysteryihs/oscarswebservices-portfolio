@@ -8,6 +8,11 @@ import { Link } from 'gatsby'
 // import vimeo from '../img/social/vimeo.svg'
 import ContactForm from './ContactForm'
 
+const iconStyle = {
+	fontFamily: "'Source Sans Pro', sans-serif",
+    fontWeight: "300",
+}
+
 const Footer = class extends React.Component {
   render() {
     return (
@@ -49,8 +54,8 @@ const Footer = class extends React.Component {
 										<li className="icon brands fa-linkedin"><a href="https://www.linkedin.com/company/oscar-web-services/"><span className="extra">linkedin.com</span></a></li>
 									</ul>
 									<ul className="divided icons col-6 col-12-mobile">
-										<li className="icon brands fa-instagram"><a href="https://www.instagram.com/oscarwebservices/"><span className="extra">instagram.com</span></a></li>
-										<li className="icon brands fa-youtube"><a href="/"><span className="extra">youtube.com</span></a></li>
+										<li className="fas fa-phone"><a href="tel:626-417-4219"><span className="extra" style={iconStyle}>(626) 417-4219</span></a></li>
+										<li className="fas fa-envelope"><a href="mailto:cyih@live.com"><span className="extra" style={iconStyle}>cyih@live.com</span></a></li>
 										<li className="icon brands fa-yelp"><a href="https://www.yelp.com/biz/oscars-web-services-hacienda-heights"><span className="extra">yelp.com</span></a></li>
 									</ul>
 								</div>

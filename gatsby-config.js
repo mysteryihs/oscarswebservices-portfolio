@@ -3,7 +3,7 @@ module.exports = {
     title: "Oscar's Web Services",
     description:
       'We specialize in developing and designing ecommerce websites and personal/business websites. We deal with technology and development so you can focus on your business worry-free.',
-    siteUrl: 'https://oscarwebserviecs.com',
+    siteUrl: 'https://oscarwebservices.com/',
   },
   plugins: [
     {
