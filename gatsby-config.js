@@ -1,9 +1,18 @@
+const {
+  NODE_ENV,
+  URL: NETLIFY_SITE_URL = 'https://oscarwebservices.com',
+  DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+  CONTEXT: NETLIFY_ENV = NODE_ENV
+} = process.env;
+const isNetlifyProduction = NETLIFY_ENV === 'production';
+const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
+
 module.exports = {
   siteMetadata: {
     title: "Oscar's Web Services",
     description:
       'We specialize in developing and designing ecommerce websites and personal/business websites. We deal with technology and development so you can focus on your business worry-free.',
-    siteUrl: 'https://oscarwebservices.com/',
+    siteUrl,
   },
   plugins: [
     {
@@ -44,6 +53,29 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sitemap',
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        resolveEnv: () => NETLIFY_ENV,
+        env: {
+          production: {
+            policy: [{ userAgent: '*' }],
+            host: 'https://oscarwebservices.com',
+            sitemap: 'https://oscarwebservices.com/sitemap.xml',
+          },
+          'branch-deploy': {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+            sitemap: null,
+            host: null
+          },
+          'deploy-preview': {
+            policy: [{ userAgent: '*', disallow: ['/'] }],
+            sitemap: null,
+            host: null
+          }
+        }
+      }
+    },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
