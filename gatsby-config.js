@@ -59,7 +59,7 @@ module.exports = {
         resolveEnv: () => NETLIFY_ENV,
         env: {
           production: {
-            policy: [{ userAgent: '*' }],
+            policy: [{ userAgent: '*', allow: '/' }],
             host: 'https://oscarwebservices.com',
             sitemap: 'https://oscarwebservices.com/sitemap.xml',
           },
