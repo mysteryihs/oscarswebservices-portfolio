@@ -17,6 +17,8 @@ tags:
 
 ### What exactly is SEO?
 
+The reason why SEO is often filled with shady people and bad info and spam is because SEO is a results driven process, where the rules of the game are hidden and difficult to measure. Good SEO takes months to years to fully take effect and this tempts people into taking shortcuts.
+
 SEO stands for Search Engine Optimization. But what exactly does that mean? **It's another way of saying you want to improve your website's search rank on Google. ** Why am I only mentioning Google and not other search engines? Let's be honest, Google is the only search engine that matters right now. So from now on, the only search engine and SEO we're talking about is for Google.
 
 ### How do you do SEO?
@@ -31,6 +33,8 @@ Keywords are words what you type into Google and what allows Google to serve rel
 
 So how do you tell these keywords apart by competition? Plenty of people use sites like [SEMRush.](https://www.semrush.com/) But generally the lower the amount of words and the more general they are, the more competitive they are. For example, keywords like "real estate agent" are probably highly competitive but a keyword like "san gabriel property under 700000" might be considered a long-tailed keyword. If you're having trouble coming up with keywords, sites like [UberSuggest](https://neilpatel.com/ubersuggest/) are often used.
 
+You can also use tools like [Google Analytics](https://analytics.google.com/) and [Google Search Console](https://search.google.com/search-console/about) to help you see what current users are searching for when they find your website.
+
 ## Implementing SEO
 
 For applying SEO, you should have at least some technical skills or know someone who does. Here are some of the factors that Google takes into account when crawling your website for SEO.
@@ -40,4 +44,6 @@ For applying SEO, you should have at least some technical skills or know someone
 - Quality of the content (No duplicate content or spam)
 - How many other websites link back to your site (also called backlinks)
 - How reputable (or authoritative) the other websites that link to you are
+- Having a sitemap.xml and a robots.txt in your website
+- Having a well structured website
 
