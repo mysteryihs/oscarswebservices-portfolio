@@ -27,5 +27,17 @@ This is a tricky question to answer and probably where I will get the most amoun
 
 A common strategy for SEO is to target keywords, but how do you go about doing that? Before I can tell you, I need to talk more about keywords.
 
-Keywords are words what you type into Google and what allows Google to serve relevant content.
+Keywords are words what you type into Google and what allows Google to serve relevant content. Naturally there are high competitive keywords and low competition keywords. Low competition keywords are often called **long-tailed keywords** and it is a common strategy to target long-tailed keywords.
+
+So how do you tell these keywords apart by competition? Plenty of people use sites like [SEMRush.](https://www.semrush.com/) But generally the lower the amount of words and the more general they are, the more competitive they are. For example, keywords like "real estate agent" are probably highly competitive but a keyword like "san gabriel property under 700000" might be considered a long-tailed keyword. If you're having trouble coming up with keywords, sites like [UberSuggest](https://neilpatel.com/ubersuggest/) are often used.
+
+## Implementing SEO
+
+For applying SEO, you should have at least some technical skills or know someone who does. Here are some of the factors that Google takes into account when crawling your website for SEO.
+
+- Site Speed (How fast it loads on mobile in particular)
+- Using keywords in your page's header and title
+- Quality of the content (No duplicate content or spam)
+- How many other websites link back to your site (also called backlinks)
+- How reputable (or authoritative) the other websites that link to you are
 
