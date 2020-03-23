@@ -17,7 +17,7 @@ tags:
 
 ### What exactly is SEO?
 
-The reason why SEO is often filled with shady people and bad info and spam is because SEO is a results driven process, where the rules of the game are hidden and difficult to measure. Good SEO takes months to years to fully take effect and this tempts people into taking shortcuts.
+The reason why SEO is often filled with shady people and bad info and spam is because SEO is a results driven process, where the rules of the game are hidden and difficult to measure. Good SEO takes months to years to fully take effect and this tempts people into taking shortcuts. What happens if you try to take a shortcut anyway? Well Google has some of the world's best engineers and a near unlimited amount of money, so any attempts to subvert the system will probably be removed and possibly punished.
 
 SEO stands for Search Engine Optimization. But what exactly does that mean? **It's another way of saying you want to improve your website's search rank on Google. ** Why am I only mentioning Google and not other search engines? Let's be honest, Google is the only search engine that matters right now. So from now on, the only search engine and SEO we're talking about is for Google.
 
@@ -42,8 +42,16 @@ For applying SEO, you should have at least some technical skills or know someone
 - Site Speed (How fast it loads on mobile in particular)
 - Using keywords in your page's header and title
 - Quality of the content (No duplicate content or spam)
+- Having a well structured website including things like a meta title, meta description and alt values for images
 - How many other websites link back to your site (also called backlinks)
 - How reputable (or authoritative) the other websites that link to you are
 - Having a sitemap.xml and a robots.txt in your website
-- Having a well structured website
+
+In recent years, the goals and measures of site speeds have changed and site speed on desktop is no longer enough. With a massive amount of Google searches coming from mobile, Google has weighed mobile site speed heavily. Which means lightweight sites are more important due to slower internet speeds from mobile. There are tools like [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) which will audit your website and give you tips on how to improve your site speed.
+
+When it comes to putting in your targeted keywords in your website, titles and headers are often the suggest place to put them. Whether Google weighs content more heavily in places like titles, domains and headers is often anecdotal.
+
+As for the actual content, Google tries to look for high quality content and tries to punish those that spam for SEO. Such high quality content can include content that gives users exactly what they're looking for and well written blogs and etc. On the other hand, spam can be things like duplicate content such as multiple identical websites and repeating keywords over and over again.
+
+In addition to good content, good SEO includes a meta title and meta description. If you look a Google search result, the name of the result and description actually comes from the meta title and description which is why it's important. Good SEO also includes alt tags which is just text that is displayed when an image fails to load or if a user is using a handicap program. Alt tags are also important for ADA compliance, which is goes hand in hand with SEO.
 
