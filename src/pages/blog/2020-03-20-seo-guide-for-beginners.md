@@ -55,3 +55,7 @@ As for the actual content, Google tries to look for high quality content and tri
 
 In addition to good content, good SEO includes a meta title and meta description. If you look a Google search result, the name of the result and description actually comes from the meta title and description which is why it's important. Good SEO also includes alt tags which is just text that is displayed when an image fails to load or if a user is using a handicap program. Alt tags are also important for ADA compliance, which is goes hand in hand with SEO.
 
+Perhaps one of the most important parts of SEO are the links that link to your website. Having a lot of websites that link to your website is great, but perhaps what matters more is the quality and reputation of the websites that are doing the linking. Also known as authority websites, these websites have a good reputation, provide factual information and are generally trustworthy. Being linked from an authoritative website is probably worth more than a number of non-authority websites.
+
+Lastly, websites having a sitemap.xml and robots.txt helps Google crawl your website more easily. As a rule, you should be making it as easy as possible for Google to index your website. A sitemap.xml is a file that contains all the pages of your website and a robots.txt tells web crawlers what to index and what not to index. Both should be accessible at *yourwebsite.com/sitemap.xml* and *yourwebsite.com/robots.txt*.
+
