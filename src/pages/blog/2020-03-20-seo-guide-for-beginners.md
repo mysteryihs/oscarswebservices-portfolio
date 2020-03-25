@@ -43,7 +43,7 @@ For applying SEO, you should have at least some technical skills or know someone
 - Using keywords in your page's header and title
 - Quality of the content (No duplicate content or spam)
 - Having a well structured website including things like a meta title, meta description and alt values for images
-- How many other websites link back to your site (also called backlinks)
+- How many other websites link back to your site (also called **backlinks**)
 - How reputable (or authoritative) the other websites that link to you are
 - Having a sitemap.xml and a robots.txt in your website
 
@@ -55,7 +55,15 @@ As for the actual content, Google tries to look for high quality content and tri
 
 In addition to good content, good SEO includes a meta title and meta description. If you look a Google search result, the name of the result and description actually comes from the meta title and description which is why it's important. Good SEO also includes alt tags which is just text that is displayed when an image fails to load or if a user is using a handicap program. Alt tags are also important for ADA compliance, which is goes hand in hand with SEO.
 
-Perhaps one of the most important parts of SEO are the links that link to your website. Having a lot of websites that link to your website is great, but perhaps what matters more is the quality and reputation of the websites that are doing the linking. Also known as authority websites, these websites have a good reputation, provide factual information and are generally trustworthy. Being linked from an authoritative website is probably worth more than a number of non-authority websites.
+Perhaps one of the most important parts of SEO are the links that link to your website. When a website links to another page or site, they usually pass what is often called **link juice**, which is the passing of a reputation or value from one site to another. Having a lot of websites that link to your website is great, but perhaps what matters more is the quality and reputation of the websites that are doing the linking. Also known as **authority** websites, these websites have a good reputation, provide factual information and are generally trustworthy. Being linked from an authoritative website is probably worth more than a number of non-authority websites. For example, being linked from an article in *The New York Times* will be way more beneficial to SEO than from a few no-name websites. Thus, it's greatly beneficial to get your brand out in news outlets, blogs/articles and industry leaders.
 
 Lastly, websites having a sitemap.xml and robots.txt helps Google crawl your website more easily. As a rule, you should be making it as easy as possible for Google to index your website. A sitemap.xml is a file that contains all the pages of your website and a robots.txt tells web crawlers what to index and what not to index. Both should be accessible at *yourwebsite.com/sitemap.xml* and *yourwebsite.com/robots.txt*.
 
+### Questionable strategies
+
+When it comes to SEO, not everyone plays by the rules. Here are some strategies I've never tried myself but heard others talk about doing.
+
+- Buying expired domains and making them link to or redirect to your website
+- Paying for SEO services that will try to spam backlinks to your website
+- Hacking websites and inserting content for someone else's SEO. This goes hand in hand with paying for mass backlinks.
+- Spamming intentionally bad SEO for your competitor's websites in order to lower their search ranking (You need to learn how to **disallow** links in order to combat this if it happens to you).
