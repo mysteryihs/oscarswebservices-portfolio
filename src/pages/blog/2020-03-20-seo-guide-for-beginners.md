@@ -12,8 +12,12 @@ tags:
   - SEO
   - google
   - keywords
+  - long-tailed
+  - backlinks
+  - link juice
+  - authority
 ---
-*Disclaimer: I'm not an SEO expert nor do I offer any SEO services. This article is an explanation of SEO how I know it as a web developer and is therefore my opinion.*
+***Disclaimer: I'm not an SEO expert nor do I offer any SEO services. This article is an explanation of SEO how I know it as a web developer and is therefore my opinion.***
 
 ### What exactly is SEO?
 
@@ -23,11 +27,11 @@ SEO stands for Search Engine Optimization. But what exactly does that mean? **It
 
 ### How do you do SEO?
 
-This is a tricky question to answer and probably where I will get the most amount of disagreement. Generally you want to make it as easy as possible for Google to go look through and store your website. **SEO is Google's game and you should play by their rules.** For this section I'll split it into two parts.
+This is a tricky question to answer and probably where I will get the most amount of disagreement. In general you want to make it as easy as possible for Google to go look through and store your website. **SEO is Google's game and you should play by their rules.** For this section I'll split it into two parts.
 
 ## Planning and Analytics
 
-A common strategy for SEO is to target keywords, but how do you go about doing that? Before I can tell you, I need to talk more about keywords.
+A common strategy for SEO is to target keywords, but how do you go about doing that? Before I can tell you, I need to talk more about keywords. Keyword analytics are not my area of expertise so I'll keep it brief.
 
 Keywords are words what you type into Google and what allows Google to serve relevant content. Naturally there are high competitive keywords and low competition keywords. Low competition keywords are often called **long-tailed keywords** and it is a common strategy to target long-tailed keywords.
 
@@ -66,4 +70,13 @@ When it comes to SEO, not everyone plays by the rules. Here are some strategies 
 - Buying expired domains and making them link to or redirect to your website
 - Paying for SEO services that will try to spam backlinks to your website
 - Hacking websites and inserting content for someone else's SEO. This goes hand in hand with paying for mass backlinks.
-- Spamming intentionally bad SEO for your competitor's websites in order to lower their search ranking (You need to learn how to **disallow** links in order to combat this if it happens to you).
+- Spamming intentionally bad SEO for your competitor's websites in order to lower their search ranking (You need to learn how to [disallow](https://support.google.com/webmasters/answer/2648487?hl=en) links in order to combat this if it happens to you).
+
+### Final thoughts
+
+Hopefully if you reach this point you understand SEO a bit more. There is a wealth of information beyond what I've mentioned here, but SEO is a long term investment so it's okay to take it slow. Try your best to do SEO properly as taking a shortcut will mostly likely not work out in the long run.
+
+Here is more reading for those that want to know more:
+
+1. [SEO is Not Hard — A step-by-step SEO Tutorial](https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for-beginners-that-will-get-you-ranked-every-single-1b903b3ab6bb)
+2. [Search Engine Optimization (SEO) Starter Guide](https://support.google.com/webmasters/answer/7451184?hl=en)
