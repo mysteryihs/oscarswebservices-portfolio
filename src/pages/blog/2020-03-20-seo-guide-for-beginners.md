@@ -21,7 +21,7 @@ tags:
 
 ### What exactly is SEO?
 
-SEO stands for Search Engine Optimization. But what exactly does that mean? **It's another way of saying you want to improve your website's search rank on Google. ** Why am I only mentioning Google and not other search engines? Let's be honest, Google is the only search engine that matters right now. So from now on, the only search engine and SEO we're talking about is for Google.
+SEO stands for Search Engine Optimization. But what exactly does that mean? **It's another way of saying you want to improve your website's search rank on Google.**  Why am I only mentioning Google and not other search engines? Let's be honest, Google is the only search engine that matters right now. So from now on, the only search engine and SEO we're talking about is for Google.
 
 ### Why does SEO often get a bad rep?
 
@@ -37,7 +37,11 @@ A common strategy for SEO is to target keywords, but how do you go about doing t
 
 Keywords are words what you type into Google and what allows Google to serve relevant content. Naturally there are high competitive keywords and low competition keywords. Low competition keywords are often called **long-tailed keywords** and it is a common strategy to target long-tailed keywords.
 
-So how do you tell these keywords apart by competition? Plenty of people use sites like [SEMRush.](https://www.semrush.com/) But generally the lower the amount of words and the more general they are, the more competitive they are. For example, keywords like "real estate agent" are probably highly competitive but a keyword like "san gabriel property under 700000" would be considered a long-tailed keyword. If you're having trouble coming up with keywords, sites like [UberSuggest](https://neilpatel.com/ubersuggest/) are often used.
+![long tailed keyword chart](/img/longtailed.png "Chart showing long-tailed keyword")
+
+***Conversion*** *is when a user successfully does what you want, such as buying a product or signing up for a newsletter.*
+
+So how do you tell these keywords apart by competition? Plenty of people use sites like [SEMRush.](https://www.semrush.com/) But generally the lower the amount of words and the more general they are, the more competitive they are and the higher the words, the more descriptive and less competitive they are. For example, keywords like "real estate agent" are probably highly competitive and too broad but a keyword like "san gabriel property under 700000" would be considered a long-tailed keyword. If you're having trouble coming up with keywords, sites like [UberSuggest](https://neilpatel.com/ubersuggest/) are often used.
 
 You can also use tools like [Google Analytics](https://analytics.google.com/) and [Google Search Console](https://search.google.com/search-console/about) to help you see what current users are searching for when they find your website.
 
@@ -45,13 +49,13 @@ You can also use tools like [Google Analytics](https://analytics.google.com/) an
 
 For being able to actually apply SEO, you should have at least some technical skills or know someone who does. Here are some of the factors that Google takes into account when crawling your website for SEO.
 
-- Site Speed (How fast it loads on mobile in particular)
-- Putting keywords in certain places like your page's header and title
-- Quality of the content (No duplicate content or spam)
-- Having a well structured website including things like a meta title, meta description and alt values for images
-- How many other websites link back to your site (also called **backlinks**)
-- How reputable (or authoritative) the other websites that link to you are
-- Having certain files like a **sitemap.xml** and a **robots.txt** in your website
+* Site Speed (How fast it loads on mobile in particular)
+* Putting keywords in certain places like your page's header and title
+* Quality of the content (No duplicate content or spam)
+* Having a well structured website including things like a meta title, meta description and alt values for images
+* How many other websites link back to your site (also called **backlinks**)
+* How reputable (or authoritative) the other websites that link to you are
+* Having certain files like a **sitemap.xml** and a **robots.txt** in your website
 
 In recent years, the measurement of site speeds have changed and loading speed on desktop is no longer enough. With almost 50% of all web traffic coming from mobile, Google has now weighed mobile site speed heavily for SEO. Which means website performance is more important due to slower internet speeds from mobile. There are tools like [Google's PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) which will help audit your website and give you tips on how to improve your site speed.
 
@@ -69,10 +73,10 @@ Lastly, websites having a sitemap.xml and robots.txt helps Google crawl your web
 
 When it comes to SEO, not everyone plays by the rules. Here are some strategies I've never tried myself but heard others talk about doing.
 
-- Buying expired domains and making them link to or redirect to your website
-- Paying for SEO services that will try to spam backlinks to your website
-- Hacking websites and inserting content for someone else's SEO. This goes hand in hand with paying for mass backlinks.
-- Spamming intentionally bad SEO for your competitor's websites in order to lower their search ranking (You need to learn how to [disallow](https://support.google.com/webmasters/answer/2648487?hl=en) links in order to combat this if it happens to you).
+* Buying expired domains and making them link to or redirect to your website
+* Paying for SEO services that will try to spam backlinks to your website
+* Hacking websites and inserting content for someone else's SEO. This goes hand in hand with paying for mass backlinks.
+* Spamming intentionally bad SEO for your competitor's websites in order to lower their search ranking (You need to learn how to [disallow](https://support.google.com/webmasters/answer/2648487?hl=en) links in order to combat this if it happens to you).
 
 ### Final thoughts
 
