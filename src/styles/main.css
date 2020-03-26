@@ -249,6 +249,10 @@ input, select, textarea {
 		font-weight: 400;
 	}
 
+	.section h2 {
+		font-size: 1.5em;
+	}
+
 	.content .taglist {
 		list-style: none;
 		margin-bottom: 0;
