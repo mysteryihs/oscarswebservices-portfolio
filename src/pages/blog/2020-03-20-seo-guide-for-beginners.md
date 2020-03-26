@@ -78,7 +78,7 @@ When it comes to SEO, not everyone plays by the rules. Here are some strategies 
 
 Hopefully if you reach this point you understand SEO a bit more. There is a wealth of information beyond what I've mentioned here, but SEO is a long term investment so it's okay to take it slow. Try your best to do SEO properly as taking a shortcut will mostly likely not work out in the long run.
 
-Here is more reading for those that want to know more:
+Here is some detailed reading for those that want to know more:
 
 1. [SEO is Not Hard — A step-by-step SEO Tutorial](https://medium.com/startup-grind/seo-is-not-hard-a-step-by-step-seo-tutorial-for-beginners-that-will-get-you-ranked-every-single-1b903b3ab6bb)
 2. [Search Engine Optimization (SEO) Starter Guide](https://support.google.com/webmasters/answer/7451184?hl=en)
