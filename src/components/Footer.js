@@ -55,8 +55,8 @@ const Footer = class extends React.Component {
 									</ul>
 									<ul className="divided icons col-6 col-12-mobile">
 										<li className="fas fa-phone"><a href="tel:626-417-4219"><span className="extra" style={iconStyle}>(626) 417-4219</span></a></li>
-										<li className="fas fa-envelope"><a href="mailto:cyih@live.com"><span className="extra" style={iconStyle}>cyih@live.com</span></a></li>
 										<li className="icon brands fa-yelp"><a href="https://www.yelp.com/biz/oscars-web-services-hacienda-heights"><span className="extra">yelp.com</span></a></li>
+										<li className="fas fa-envelope"><a href="mailto:cyih@live.com"><span className="extra" style={iconStyle}>cyih@live.com</span></a></li>
 									</ul>
 								</div>
 							</section>
