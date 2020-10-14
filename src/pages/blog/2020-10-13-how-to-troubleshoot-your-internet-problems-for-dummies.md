@@ -52,10 +52,15 @@ Now that you've got this handy tool under your belt, it's time to start figuring
 
 ### Actually finding out what's wrong with your internet
 
-First thing if you haven't already, run the ping command and check your internet stability. Most likely you're getting some combination of high milliseconds and/or having your internet connection drop. Once you've confirmed it, go ahead and take the ethernet cable going from your modem to your router and put it so that the cable is going from your modem into your PC. 
+First thing if you haven't already, run the ping command and check your internet stability. Most likely you're getting some combination of high milliseconds and/or having your internet connection drop. Once you've confirmed it, go ahead and take the ethernet cable going from your modem to your router and put it so that the cable is going from your modem into your PC. You want to do this so you can split the two and test them independently, so if you bypass the router and the problem is gone, then you know its the router. If the problem persists, then you know its the modem or the wiring.
 
 Go ahead and run the ping command again and if you've noticed that your time from the ping command is much faster and more stable like the above picture, then you've confirmed that the problem is the router.
 
 ### So it turns out the router WAS the problem
 
+Generally there are two reasons why the router is the problem:
 
+1. Your router is a cheap piece of junk
+2. You live in an area that has a lot of wi-fi signals like an apartment or condo
+
+Reason one is pretty self-explanatory but as for reason two, imagine you're in a big room filled to the brim with lots of people who are all in conversation. Sometimes you can't even hear yourself talk. You can't tell everybody else in the room to leave so you can your conversation in peace, but you can buy a megaphone and drown out everybody else for crystal clear communication.
