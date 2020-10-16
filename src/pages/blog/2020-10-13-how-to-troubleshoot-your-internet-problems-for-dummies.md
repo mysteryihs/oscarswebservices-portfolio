@@ -63,4 +63,12 @@ Generally there are two reasons why the router is the problem:
 1. Your router is a cheap piece of junk
 2. You live in an area that has a lot of wi-fi signals like an apartment or condo
 
-Reason one is pretty self-explanatory but as for reason two, imagine you're in a big room filled to the brim with lots of people who are all in conversation. Sometimes you can't even hear yourself talk. You can't tell everybody else in the room to leave so you can your conversation in peace, but you can buy a megaphone and drown out everybody else for crystal clear communication.
+Reason one is pretty self-explanatory but as for reason two, imagine you're in a big room filled to the brim with lots of people who are all in conversation. Sometimes you can't even hear yourself talk. You can't tell everybody else in the room to leave so you can your conversation in peace, but you can buy a megaphone and drown out everybody else for crystal clear communication. A decent router goes for at least $70 or $80.
+
+### "But I don't want to spend too much money on a router"
+
+I hear this all too often. You're going to be using this router pretty much every waking moment at home so why not spend money on it? After all, people spend money on things like expensive food and items, car payments and stuff. These are things you use sometimes or once. I'm ranting, but money on a router is well spend, so do it.
+
+### TL;DR
+
+It's probably the router, don't skimp out on one if you're replacing it.
