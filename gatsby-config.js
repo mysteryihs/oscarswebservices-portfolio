@@ -16,6 +16,37 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-relative-images',
+            options: {
+              name: 'uploads',
+            },
+          },
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 2048,
+              withWebp: true,
+            },
+          },
+          {
+            resolve: 'gatsby-remark-copy-linked-files',
+            options: {
+              destinationDir: 'static',
+            },
+          },
+        ],
+      },
+    },
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
         // The property ID; the tracking code won't be generated without it
@@ -50,8 +81,6 @@ module.exports = {
         name: 'images',
       },
     },
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
     'gatsby-plugin-sitemap',
     {
       resolve: 'gatsby-plugin-robots-txt',
@@ -75,35 +104,6 @@ module.exports = {
           }
         }
       }
-    },
-    {
-      resolve: 'gatsby-transformer-remark',
-      options: {
-        plugins: [
-          {
-            resolve: 'gatsby-remark-relative-images',
-            options: {
-              name: 'uploads',
-            },
-          },
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              // It's important to specify the maxWidth (in pixels) of
-              // the content container as this plugin uses this as the
-              // base for generating different widths of each image.
-              maxWidth: 2048,
-              withWebp: true,
-            },
-          },
-          {
-            resolve: 'gatsby-remark-copy-linked-files',
-            options: {
-              destinationDir: 'static',
-            },
-          },
-        ],
-      },
     },
     {
       resolve: 'gatsby-plugin-netlify-cms',
