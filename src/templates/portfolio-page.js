@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import { HTMLContent } from '../components/Content'
 import Img from 'gatsby-image'
 
-export const PortfolioPageTemplate = ({ title, content, contentComponent, dragonrush, qualityinspections, guanshu }) => {
+export const PortfolioPageTemplate = ({ title, content, contentComponent, dragonrush, qualityinspections, guanshu, affordableled }) => {
   // const PageContent = contentComponent || Content
 
   return (
@@ -19,21 +19,39 @@ export const PortfolioPageTemplate = ({ title, content, contentComponent, dragon
       <div class="row features">
         <section class="col-4 col-12-narrower feature">
           <div class="image-wrapper first">
-            <Img fluid={dragonrush.childImageSharp.fluid} alt="Dragon Rush Site" title="Dragon Rush" style={{height: "200px"}} className="image featured" />
+          <a href="https://www.affordableled.com/" class="image featured"><Img fluid={affordableled.childImageSharp.fluid} alt="AffordableLED Site" title="AffordableLED" style={{height: "200px"}} className="image featured" /></a>
           </div>
-          <p>Built using Ruby on Rails with Heroku hosting and includes OAuth and Email integration.</p>
+          <p>Ecommerce website upgraded from Magento 1 to Magento 2 with an up to date look and security.</p>
         </section>
         <section class="col-4 col-12-narrower feature">
           <div class="image-wrapper">
-            <a href="https://guanshubiotechltd.com/" class="image featured"><Img fluid={guanshu.childImageSharp.fluid} alt="Guan Shu Site" title="Guan Shu" style={{height: "200px"}} /></a>
           </div>
-          <p>Ecommerce website built using Ruby on Rails with the Spree extension allowing for customized website including payment gateways.</p>
         </section>
         <section class="col-4 col-12-narrower feature">
           <div class="image-wrapper">
             <a href="https://thequalityhomeinspector.net/" class="image featured"><Img fluid={qualityinspections.childImageSharp.fluid} alt="Quality Inspections Site" title="Quality Property Inspections" style={{height: "200px"}} /></a>
           </div>
           <p>Custom hand-coded website using Jekyll static site generator with Github Pages for hosting.</p>
+        </section>
+      </div>
+
+      {/*dragon rush example is sandwiched with two empty columns in order to center it -- a hacky attempt at centering*/}
+      <div class="row features">
+        <section class="col-4 col-12-narrower feature">
+          <div class="image-wrapper first">
+            <Img fluid={dragonrush.childImageSharp.fluid} alt="Dragon Rush Site" title="Dragon Rush" style={{height: "200px"}} className="image featured" />
+          </div>
+          <p>Built using Ruby on Rails with Heroku hosting and includes OAuth and Email integration.</p>
+        </section>
+        <section class="col-4 col-12-narrower feature">
+          <div class="image-wrapper">
+          </div>
+        </section>
+        <section class="col-4 col-12-narrower feature">
+          <div class="image-wrapper">
+            <a href="https://young-cliffs-48660.herokuapp.com/" class="image featured"><Img fluid={guanshu.childImageSharp.fluid} alt="Guan Shu Site" title="Guan Shu" style={{height: "200px"}} /></a>
+          </div>
+          <p>Ecommerce website built using Ruby on Rails with the Spree extension allowing for customized website including payment gateways.</p>
         </section>
       </div>
     </section>
@@ -59,6 +77,7 @@ const PortfolioPage = ({ data }) => {
         dragonrush={data.dragonrush}
         qualityinspections={data.qualityinspections}
         guanshu={data.guanshu}
+        affordableled={data.affordableled}
       />
     </Layout>
   )
@@ -95,6 +114,17 @@ export const portfolioPageQuery = graphql`
       }
     }
     qualityinspections: file(relativePath: {eq: "quality_trim.png"}) {
+      id
+      childImageSharp {
+        fixed {
+          ...GatsbyImageSharpFixed
+        }
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    affordableled: file(relativePath: {eq: "afford_trim.png"}) {
       id
       childImageSharp {
         fixed {
