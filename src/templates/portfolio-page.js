@@ -6,7 +6,7 @@ import Layout from '../components/Layout'
 import { HTMLContent } from '../components/Content'
 import Img from 'gatsby-image'
 
-export const PortfolioPageTemplate = ({ title, content, contentComponent, dragonrush, qualityinspections, guanshu, affordableled }) => {
+export const PortfolioPageTemplate = ({ title, content, contentComponent, dragonrush, qualityinspections, guanshu, affordableled, gwsecurity }) => {
   // const PageContent = contentComponent || Content
 
   return (
@@ -25,7 +25,9 @@ export const PortfolioPageTemplate = ({ title, content, contentComponent, dragon
         </section>
         <section class="col-4 col-12-narrower feature">
           <div class="image-wrapper">
+          <a href="https://www.gwsecurityusa.com/" class="image featured"><Img fluid={gwsecurity.childImageSharp.fluid} alt="GW Security Site" title="GW Security" style={{height: "200px"}} className="image featured" /></a>
           </div>
+          <p>Updated a WooCommerce website with millions in annual revenue and optimized their SEO.</p>
         </section>
         <section class="col-4 col-12-narrower feature">
           <div class="image-wrapper">
@@ -78,6 +80,7 @@ const PortfolioPage = ({ data }) => {
         qualityinspections={data.qualityinspections}
         guanshu={data.guanshu}
         affordableled={data.affordableled}
+        gwsecurity={data.gwsecurity}
       />
     </Layout>
   )
@@ -114,6 +117,17 @@ export const portfolioPageQuery = graphql`
       }
     }
     qualityinspections: file(relativePath: {eq: "quality_trim.png"}) {
+      id
+      childImageSharp {
+        fixed {
+          ...GatsbyImageSharpFixed
+        }
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+    gwsecurity: file(relativePath: {eq: "gwsecurity_trim.png"}) {
       id
       childImageSharp {
         fixed {
