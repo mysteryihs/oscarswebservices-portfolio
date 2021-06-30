@@ -6,7 +6,7 @@ heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 hero:
   title1: Oscar's Web Services is 
-  title2: a premier web design business
+  title2: a SoCal web design company
   subtitle1: Specializing in Ecommerce and Business Websites 
   subtitle2: Located in and servicing Southern California
 mainpitch:

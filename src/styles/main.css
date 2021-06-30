@@ -2183,12 +2183,18 @@ input, select, textarea {
 	}
 
 	.homepage .header-wrapper {
-		padding: 20em 0 16em 0;
-		background-size: 100% 100%, 100% 100%, auto;
-		background-image: url("../../static/img/background.jpg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("../../static/img/background.jpg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("../../static/img/background.jpg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
-		background-image: url("../../static/img/background.jpg"), linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
+		/* padding: 20em 0 16em 0; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		background-size: 100% 100%, 100% 100%, auto !important; 
+		background: 
+		linear-gradient(
+		rgba(0, 0, 0, 0.5), 
+		rgba(0, 0, 0, 0.5)
+		),
+		url("../../static/img/background.jpg");
 	}
 
 	#promo-wrapper {
@@ -2802,6 +2808,7 @@ input, select, textarea {
 
 			.homepage .header-wrapper {
 				padding: 3em 20px 3em 20px;
+				height: 25vh;
 			}
 
 			#promo-wrapper {
